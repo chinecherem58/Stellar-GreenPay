@@ -1,5 +1,5 @@
 # Test stage — devDependencies for jest in docker-compose.test.yml
-FROM node:20-alpine AS test
+FROM node:25-alpine AS test
 
 WORKDIR /app
 
